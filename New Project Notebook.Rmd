@@ -8,5 +8,8 @@ output: html_notebook
 This is my practice notebook
 ```{r}
 data("mtcars")
-plot(mtcars$mpg, mtcars$wt)
+plot(mtcars$mpg, mtcars$wt, col = rainbow(length(mtcars$mpg)))
+```
+```{r}
+
 ```
